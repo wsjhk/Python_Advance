@@ -3,5 +3,5 @@
 1.coroutine.py和async_await.py的理解是一样的，yield from和await是一个意思，都是调用者和最终的yield之间的通道，事件循环是调用者，
 只有yield的函数是函数暂停的地方，也就是调用者切换到其他协程函数执行的时候，然后由事件循环来驱动next()或者send()来实现协程函数的继续执行。
 
-2.Python_Advance目录是学习了python的进阶的代码笔记和知识点的思维导图。
+2.Python_Advance目录是学习了python进阶编程的代码笔记和知识点的思维导图。
 
